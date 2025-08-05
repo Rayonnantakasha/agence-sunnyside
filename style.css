@@ -1,0 +1,400 @@
+/* css page mobile first */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header css-page */
+header{
+    background-size: cover; 
+    background-position: center;
+    padding: 5% 2%;
+    background-image: url('mobile/image-header.jpg');
+    height:115vh;
+}
+.header-nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 15px;
+}
+.header-title{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-top: 80px;
+    letter-spacing: 7px;
+    color: #fff;
+}
+.menu{
+    display: none;
+}
+.menu-icon{
+    width: 1.2rem;
+}
+.container-h {
+    text-align: center;
+    margin-top: 55px;
+}
+/* main css-page */
+.div-img img{  
+    width: 100%;
+}
+.container-1{
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.container{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.div-title{ 
+    font-size: 30px;
+    font-family: 'fraunces', serif;
+    padding: 40px;
+    color: #203039;
+}
+.card-container p{
+    line-height: 1.6;
+    padding: 0px 30px 30px;
+    font-size: 16px;
+    color: #89878d;
+    font-weight: 600;
+    font-family: 'barlow', sans-serif;
+}
+.card-container .yellow-more {
+    font-family: 'Fraunces', serif;
+    font-size: 13px;
+    color: #12161c; 
+    text-decoration: underline 4px  solid #f4e183;
+}
+.card-container .pink-more {
+    font-family: 'Fraunces', serif;
+    font-size: 13px;
+    color: #12161c;  
+    text-decoration: underline 4px  solid #ffd7cf ;
+}
+.div-style{  
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 26px;
+    padding: 15px;
+}
+.grape{
+    background-image: url('mobile/image-graphic-design.jpg');
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.orange{
+    background-image: url('mobile/image-photography.jpg');
+    width: 100%;
+    height: auto;
+}
+.design-title{
+    font-size: 25px;
+    font-family: 'fraunces', serif;
+    padding-top: 110%;
+    text-align: center;
+    color: #164e41;
+}
+.container-style {
+    padding: 30px 0px;
+    font-size: 14px;
+    font-weight: 650;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'barlow', sans-serif;
+}
+.color{
+    color: #235c51;
+}
+.color-2{
+    color: #18506c;
+}
+.color-3{
+    color: #115c81;
+}
+.section-card{ 
+    font-size: 13px;
+    font-family: 'fraunces', serif;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    color: #aaa9ae;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.customer-content img{
+    margin: 30px 20px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.customer-content {
+    padding-top: 20px;
+}
+.customer-description{
+    font-size: 16px;
+    font-family: 'barlow', sans-serif;
+    color: #6c7072;
+    font-weight: 520;
+    line-height: 1.8;
+    padding: 0px 20px;
+}
+.customer{
+   text-align: center;
+}
+#name{
+    color: rgb(31, 31, 31);
+    font-family: 'fraunces', serif;
+    font-size: 14px;
+    padding-top: 30px;
+}
+#post{
+    color: rgb(192, 180, 180);
+    font-family: 'barlow', serif;
+    font-size: 12px;
+    line-height: 2.5;
+    font-weight: 600;
+}
+.mobile-img{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    width: 100%;
+}
+.mobile-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.desktop-img{
+  display: none;
+}
+/* footer css-page */
+footer{
+    background-color: #90d4c5;
+    text-align: center;
+}
+.contenu-footer{
+    text-align: center;
+    padding-top: 30px;
+}
+.contenu-footer img{
+    margin: 20px 0px;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    padding-top: 5px;
+    font-family: 'barlow', serif;
+}
+.footer-link-2{
+    display: flex;
+    justify-content: center;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #2a7562;
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer-link a:hover{
+    color: white;
+}
+.footer-link li{
+    list-style: none;
+}
+.footer-link-2 img{
+    margin: 0px 10px;
+    width: 1rem;
+}
+.footer-social li {
+   list-style: none; 
+   padding-top: 30px;
+   padding-bottom: 50px;
+}
+
+/* css page desktop first */
+@media screen and (min-width:600px){
+    /* css page desktop first-header */
+    .menu{
+        display: flex;
+        gap: 15%;
+    }
+    .menu li{
+        list-style: none;
+    }
+    header,.header-nav nav a{
+        color: white;
+    }
+    .header-nav{
+        padding: 0px 10px;
+    }
+    header{
+        background-image: url('desktop/image-header.jpg');
+        width: 100%;
+        height: 120vh;
+        font-size: 13px;
+    }
+    header .header-nav nav ul li:nth-child(4) a {
+        background-color: white;
+        color: #333640;
+        padding: 20px 25px;
+        font-family: 'Fraunces', serif;
+        border-radius: 2rem;
+        font-weight: 700;
+    }
+    header .header-nav nav ul li:nth-child(4) a:hover {
+        background-color: #6bd0ff;
+        color: #f5ffff;
+    }   
+    .header-title{
+        margin-top: 70px;
+        letter-spacing: 15px;
+    }
+    .container-h{
+        text-align: center;
+        margin-top: 8%;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 13px;
+        font-family: 'barlow', serif;
+    }
+    header ul{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        gap: 15%;
+    }
+    .menu-icon {
+        display: none;
+    }
+ /* css page desktop first-main */
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0px;
+    }
+    .container-1{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0px;
+    }
+    .card-container{
+        padding: 60px 60px;
+    }
+    .div-img{
+        width: 50%;
+    }
+    .div-img img {
+        height: auto;
+        display: block; 
+    }
+    .div-content{
+        text-align: start;
+    }
+    .div-title{
+        font-size: 28px;
+        color: #203039;
+        text-align: start;
+        padding-top: 60px;
+    }
+    .card-container .yellow-more {
+        text-decoration: underline 4px  solid yellow;
+        padding-right: 300px;
+    }
+    .card-container .pink-more {
+        text-decoration: underline 4px  solid #fe7563;
+        padding-right: 300px;
+    }
+    .card-container{
+        flex: 1;
+    }
+    .grape{
+        background-image: url('desktop/image-graphic-design.jpg');
+        width: 50%;
+        height: 90vh;
+        margin-top: 0px;
+    }
+    .orange{
+        background-image: url('desktop/image-photography.jpg');
+        width: 50%;
+        height: 90vh;
+        margin-top: 0px;
+    }
+    .card{
+        padding-top: 50%;
+        width: 100%;
+    }
+    .design-title{
+        padding-top: 50px;
+    }
+    .container-style {
+        padding: 0px 100px;
+        padding-top: 25px;
+        font-size: 14px;
+    }
+    .customer{
+        margin: 60px 60px;
+        margin-bottom: 80px;
+    }
+    .customer-card{
+        display: flex;
+        justify-content: space-around;
+    }
+    .customer-content{
+        width: 50%;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .customer-description{
+        font-size: 15px;
+        padding: 15px 5px;
+    }
+    .section-card{ 
+        font-size: 14px;
+        letter-spacing: 6px;
+    }
+    .desktop-img{
+        display: flex;
+    }
+    .desktop-img img{
+        width: 25%;
+        height: auto;
+        display: block; 
+    }
+    .mobile-img{
+        display: none;
+    }
+ /* css page desktop first-footer */
+    .contenu-footer img{
+        margin: 20px 0px;   
+    }
+    .footer-link{
+        gap: 3.5%;
+    }
+    .footer-link a{
+        font-size: 15px;
+    }
+    .footer-link-2 img{
+        width: 1.1rem;
+        margin: 0px 10px;
+    }  
+    .footer-link-2 img:hover{
+       color: white;
+       filter: brightness(10);
+    }  
+    
+}
+
